@@ -100,7 +100,7 @@ def main():
                 
                 # Show input summary
                 st.write("### Trip Summary")
-                st.table(pd.DataFrame(data, columns=cols))
+                st.table(pd.DataFrame([data], columns=cols))
     
     with col2:
         st.subheader("Model Insights")
