@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+
+# Spark / Hadoop
+hs_err_pid*
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Data (Ignore large parquet files but keep the folders)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Models (Ignore large model binaries)
+models/best_model/*
+models/sk_rf.pkl
+!models/.gitkeep
+
+# IDEs and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
