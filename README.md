@@ -3,6 +3,12 @@
   <h1>🚕 NYC Taxi Fare Prediction</h1>
   <h3>End-to-End Big Data Machine Learning Pipeline</h3>
   
+  <br>
+  <a href="https://taxi-trip.streamlit.app">
+    <img src="https://img.shields.io/badge/🔴_Live_Demo-View_Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo"/>
+  </a>
+  <br><br>
+
   <p align="center">
     <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version"/>
     <img src="https://img.shields.io/badge/Apache%20Spark-3.5-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark Version"/>
