@@ -22,8 +22,8 @@ data/processed/*
 
 # Models (Ignore large model binaries)
 models/best_model/*
-models/sk_rf.pkl
 !models/.gitkeep
+
 
 # IDEs and OS
 .idea/
